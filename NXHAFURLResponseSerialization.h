@@ -230,7 +230,7 @@ NS_ASSUME_NONNULL_BEGIN
  - `image/x-xbitmap`
  - `image/x-win-bitmap`
  */
-@interface AFImageResponseSerializer : NXHAFHTTPResponseSerializer
+@interface NXHAFImageResponseSerializer : NXHAFHTTPResponseSerializer
 
 #if TARGET_OS_IOS || TARGET_OS_TV || TARGET_OS_WATCH
 /**
